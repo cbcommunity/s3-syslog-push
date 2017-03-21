@@ -27,6 +27,6 @@ setup(
     ],
     keywords='carbonblack bit9',
     entry_points = {
-        'console_scripts': [ 's3-syslog-push = s3syslogpush.main:main' ],
+        'console_scripts': [ 's3-syslog-push = s3syslogpush.__main__:main' ],
     },
 )

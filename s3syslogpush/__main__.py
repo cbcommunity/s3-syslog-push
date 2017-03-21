@@ -11,8 +11,8 @@ from tempfile import NamedTemporaryFile
 
 log = logging.getLogger("s3-syslog-push")
 
-from .globals import s3_settings, directory_settings, output_settings
-from .config import read_parse_config
+from s3syslogpush.globals import s3_settings, directory_settings, output_settings
+from s3syslogpush.config import read_parse_config
 
 
 class Main(object):
